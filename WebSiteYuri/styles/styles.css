@@ -1,7 +1,7 @@
 body{
     background-color: black;
     text-align: center;
-    
+    font-family: Arial;
 }
 
 .cajon{
@@ -18,7 +18,11 @@ body{
     font-family: Impact;
 }
 
-
+h2{
+    color: black;
+    background-color: cyan;
+    border-radius: 10px;
+}
 .home{
     float: left;
 }
@@ -83,26 +87,32 @@ table{
 }
 
 .lista{
+    
     text-align: center;
     background-image: url(/images/fondo-lista.jpg);
-    margin-left: 150px;
+    margin-left: 400px;
     margin-right: 600px;
-    background-size: 100;
+    background-size: 120;
     background-repeat: no-repeat;
     background-position: center;
     color: purple;
     border: solid;
     
     
+    
 }
-.image-derecha{
-    float: right;
+.derecha{
+   float: right;
+   
+}
+.imagen-derecha{
+   
     width: 500px;
 }
 form{
     margin: 50px;
     color: white;
-    text-align: left;
+   
     padding-bottom: 200px;
 }
 
@@ -110,8 +120,6 @@ legend{
     margin: 0% auto; 
     
 }
-.gustos{
-    text-align: center;
-    text-decoration-style: solid;
+.registro{
+    display: inline-block;
 }
-
