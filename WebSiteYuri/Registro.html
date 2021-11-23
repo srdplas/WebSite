@@ -14,8 +14,9 @@
     <h1 class="cabecera"><em>Formulario de Registro</em></h1>
 
     <form target="_blank" action="https://jkorpela.fi/cgi-bin/echo.cgi" method="post">
-      <h2>Datos Personales</h2>
+      
       <fieldset>
+        <legend>Datos Personales</legend>
         <img class="image-derecha" src="images/naruto-form.jpg" />
         <label for="nombre">Indicanos tu Nombre</label><br />
         <input type="text" id="nombre" name="nombre" placeholder="Pepito..." required /><br />
@@ -39,9 +40,11 @@
           pattern="[A-Za-z]{8}" size="50px" /><br />
         <br />
       </fieldset>
-      
-      <fieldset>
-        <p>Para Sugerirte Animes acordes a tus gustos:</p>
+     
+      <fieldset class="gustos">
+        
+        <legend>Gustos Personales</legend>
+        <p>Para Sugerirte Animes</p>
         <label for="intereses">Indica cuales son tus generos favoritos de anime</label><br />
         <input type="checkbox" id="intereses" name="generoFav" value="Shounen" />
         <label for="intereses">Shounen</label>

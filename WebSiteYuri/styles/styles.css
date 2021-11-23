@@ -105,3 +105,13 @@ form{
     text-align: left;
     padding-bottom: 200px;
 }
+
+legend{
+    margin: 0% auto; 
+    
+}
+.gustos{
+    text-align: center;
+    text-decoration-style: solid;
+}
+
