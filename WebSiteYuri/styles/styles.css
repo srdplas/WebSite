@@ -16,16 +16,30 @@ body{
     color: white;
     text-align: center;
     font-family: Impact;
+    
 }
+h1{
+    color: crimson;
+    background-color: darkblue;
+    padding: 5px;
+    border-radius: 10px;
+    margin-left: 300px;
+    margin-right: 300px;
 
+}
 h2{
     color: black;
     background-color: cyan;
     border-radius: 10px;
+    margin-right: 500px;
+    margin-left: 500px;
 }
 .home{
     float: left;
+    background-color: rgb(217, 255, 0);
+    border-radius: 40px;
 }
+
 
 .portada-image{
     text-align: center;
@@ -40,7 +54,7 @@ nav{
     background-position-x: 80px;
     background-repeat: no-repeat;
     background-color: black;
-    
+    border-radius: 20px;
 
     
 }
@@ -63,6 +77,7 @@ table{
     background-color: cornflowerblue;
     color: white;
     font-size: 20px;
+   
 }
 .fa-youtube-square{
     margin-left: 20px;
@@ -81,9 +96,10 @@ table{
     font-size: 20px;
 }
 .pie{
-   margin-top: 200px;
+    margin-top: 200px;
     text-align: center;
     color: yellow;
+    background-color: black;
 }
 
 .lista{
@@ -97,6 +113,7 @@ table{
     background-position: center;
     color: purple;
     border: solid;
+    font-family: 'Times New Roman';
     
     
     
@@ -123,3 +140,5 @@ legend{
 .registro{
     display: inline-block;
 }
+
+

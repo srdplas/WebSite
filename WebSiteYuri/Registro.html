@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Registro Portal Manga</title>
   <link rel="stylesheet" href="styles/styles.css" />
+  <script src="https://kit.fontawesome.com/448cd32503.js" crossorigin="anonymous"></script>
 </head>
 
 <bod>
@@ -14,57 +15,66 @@
     <h1 class="cabecera"><em>Formulario de Registro</em></h1>
     <img class="image-derecha formulario" src="images/naruto-form.jpg" />
     <div class="registro">
-    <form target="_blank" action="https://jkorpela.fi/cgi-bin/echo.cgi" method="post">
-      
-      <fieldset class="datos-personal">
-        <legend>Datos Personales</legend>
-        
-        <label for="nombre">Indicanos tu Nombre</label><br />
-        <input type="text" id="nombre" name="nombre" placeholder="Pepito..." required /><br />
-        <br />
-        <label for="apellidos">Indicanos tus Apellidos</label><br />
-        <input type="text" id="apellidos" name="apellidos" placeholder="Rodriguez" /><br />
-        <br />
+      <form target="_blank" action="https://jkorpela.fi/cgi-bin/echo.cgi" method="post">
 
-        <label for="FechaNan">Indicanos tu Fecha de Nacimiento</label><br />
-        <input type="date" id="FechaNan" name="FechNan" required /><br />
-        <br />
-        <label for="email">Escribe tu Correo Electronico</label><br />
-        <input type="email" id="web" name="correo" placeholder="example@gmail.com" size="50px" /><br />
-        <br />
-        <label for="contraseña">Crea una Contraseña (Mayusculas, minusculas maximo 8 caracteres)</label><br />
-        <input type="password" id="contraseña" name="pass" placeholder="Mayusculas, minusculas maximo 8 caracteres"
-          required pattern="[A-Za-z]{8}" size="50px" /><br />
-        <br />
-        <label for="contraseña">Repite la Contraseña</label><br />
-        <input type="password" id="contraseña" name="pass" placeholder="Vuelva a escrbir la contraseña" required
-          pattern="[A-Za-z]{8}" size="50px" /><br />
-        <br />
-      </fieldset>
-     
-      <fieldset class="gustos">
-        
-        <legend>Gustos Personales</legend>
-        <p>Para Sugerirte Animes</p>
-        <label for="intereses">Indica cuales son tus generos favoritos de anime</label><br />
-        <input type="checkbox" id="intereses" name="generoFav" value="Shounen" />
-        <label for="intereses">Shounen</label>
-        <input type="checkbox" id="intereses" name="generoFav" value="Shoujo" />
-        <label for="intereses">Shoujo</label>
-        <input type="checkbox" id="intereses" name="generoFav" value="Mecha" />
-        <label for="intereses">Mecha</label>
-        <input type="checkbox" id="intereses" name="generoFav" value="Seinen" />
-        <label for="intereses">Seinen</label>
-        <input type="checkbox" id="intereses" name="generoFav" value="Isekai" />
-        <label for="intereses">Isekai</label><br />
-        <br />
-        <button type="submit">Enviar</button>
+        <fieldset class="datos-personal">
+          <legend>Datos Personales</legend>
 
-        <button type="reset">Restablecer</button>
-      </fieldset>
+          <label for="nombre">Indicanos tu Nombre</label><br />
+          <input type="text" id="nombre" name="nombre" placeholder="Pepito..." required /><br />
+          <br />
+          <label for="apellidos">Indicanos tus Apellidos</label><br />
+          <input type="text" id="apellidos" name="apellidos" placeholder="Rodriguez" /><br />
+          <br />
 
-    </form>
+          <label for="FechaNan">Indicanos tu Fecha de Nacimiento</label><br />
+          <input type="date" id="FechaNan" name="FechNan" required /><br />
+          <br />
+          <label for="email">Escribe tu Correo Electronico</label><br />
+          <input type="email" id="web" name="correo" placeholder="example@gmail.com" size="50px" /><br />
+          <br />
+          <label for="contraseña">Crea una Contraseña (Mayusculas, minusculas maximo 8 caracteres)</label><br />
+          <input type="password" id="contraseña" name="pass" placeholder="Mayusculas, minusculas maximo 8 caracteres"
+            required pattern="[A-Za-z]{8}" size="50px" /><br />
+          <br />
+          <label for="contraseña">Repite la Contraseña</label><br />
+          <input type="password" id="contraseña" name="pass" placeholder="Vuelva a escrbir la contraseña" required
+            pattern="[A-Za-z]{8}" size="50px" /><br />
+          <br />
+        </fieldset>
+
+        <fieldset class="gustos">
+
+          <legend>Gustos Personales</legend>
+          <p>Para Sugerirte Animes</p>
+          <label for="intereses">Indica cuales son tus generos favoritos de anime</label><br />
+          <input type="checkbox" id="intereses" name="generoFav" value="Shounen" />
+          <label for="intereses">Shounen</label>
+          <input type="checkbox" id="intereses" name="generoFav" value="Shoujo" />
+          <label for="intereses">Shoujo</label>
+          <input type="checkbox" id="intereses" name="generoFav" value="Mecha" />
+          <label for="intereses">Mecha</label>
+          <input type="checkbox" id="intereses" name="generoFav" value="Seinen" />
+          <label for="intereses">Seinen</label>
+          <input type="checkbox" id="intereses" name="generoFav" value="Isekai" />
+          <label for="intereses">Isekai</label><br />
+          <br />
+          <button type="submit">Enviar</button>
+
+          <button type="reset">Restablecer</button>
+        </fieldset>
+
+      </form>
     </div>
+    <footer class="pie">
+      <p><q>No vivas con falsedades ni miedos, porque terminarás odiándote a ti mismo.</q> <strong>Uzumaki
+          Naruto</strong></p>
+      <div class="Red-social">
+        <a href="https://www.youtube.com/"> <i class="fab fa-youtube-square"> Youtube</i></a>
+        <a href="https://www.instagram.com/?hl=es"><i class="fab fa-instagram"> Instagram</i></a>
+        <a href="https://twitter.com/?lang=es"><i class="fab fa-twitter-square"> Twitter</i></a>
+      </div>
+    </footer>
   </div>
   </body>
 
