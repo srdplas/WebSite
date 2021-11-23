@@ -1,0 +1,107 @@
+body{
+    background-color: black;
+    text-align: center;
+    
+}
+
+.cajon{
+    background-image:url(/images/fondo2.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    margin: auto;
+    
+}
+.cabecera{
+ 
+    color: white;
+    text-align: center;
+    font-family: Impact;
+}
+
+
+.home{
+    float: left;
+}
+
+.portada-image{
+    text-align: center;
+}
+
+nav{
+    margin-top: 15px;
+    text-align: center;
+    padding: 35px;
+    background-image: url(/images/naruto-run.gif);
+    background-size: 180px;
+    background-position-x: 80px;
+    background-repeat: no-repeat;
+    background-color: black;
+    
+
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.menu{
+    border: solid;
+    border-radius: 5px;
+    border-color: yellow;
+    display: inline;
+    background-color: black;
+    color: white;
+    margin: 20px;
+    padding: 10px;
+    
+}
+table{
+    background-color: cornflowerblue;
+    color: white;
+    font-size: 20px;
+}
+.fa-youtube-square{
+    margin-left: 20px;
+    color: red;
+    font-size: 20px;
+}
+.fa-instagram{
+    margin-left: 20px;
+    color: white;
+    font-size: 20px;
+    
+}
+.fa-twitter-square{
+    margin-left: 20px;
+    color: rgb(23, 120, 246);
+    font-size: 20px;
+}
+.pie{
+   margin-top: 200px;
+    text-align: center;
+    color: yellow;
+}
+
+.lista{
+    text-align: center;
+    background-image: url(/images/fondo-lista.jpg);
+    margin-left: 150px;
+    margin-right: 600px;
+    background-size: 100;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: purple;
+    border: solid;
+    
+    
+}
+.image-derecha{
+    float: right;
+    width: 500px;
+}
+form{
+    margin: 50px;
+    color: white;
+    text-align: left;
+    padding-bottom: 200px;
+}

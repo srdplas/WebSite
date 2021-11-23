@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Registro Portal Manga</title>
+  <link rel="stylesheet" href="styles/styles.css" />
+</head>
+
+<bod>
+  <div class="cajon">
+    <a href="index.html"><img class="home" src="images/home.png" width="40px" height="40px" /></a>
+    <h1 class="cabecera"><em>Formulario de Registro</em></h1>
+
+    <form target="_blank" action="https://jkorpela.fi/cgi-bin/echo.cgi" method="post">
+      <h2>Datos Personales</h2>
+      <fieldset>
+        <img class="image-derecha" src="images/naruto-form.jpg" />
+        <label for="nombre">Indicanos tu Nombre</label><br />
+        <input type="text" id="nombre" name="nombre" placeholder="Pepito..." required /><br />
+        <br />
+        <label for="apellidos">Indicanos tus Apellidos</label><br />
+        <input type="text" id="apellidos" name="apellidos" placeholder="Rodriguez" /><br />
+        <br />
+
+        <label for="FechaNan">Indicanos tu Fecha de Nacimiento</label><br />
+        <input type="date" id="FechaNan" name="FechNan" required /><br />
+        <br />
+        <label for="email">Escribe tu Correo Electronico</label><br />
+        <input type="email" id="web" name="correo" placeholder="example@gmail.com" size="50px" /><br />
+        <br />
+        <label for="contraseña">Crea una Contraseña (Mayusculas, minusculas maximo 8 caracteres)</label><br />
+        <input type="password" id="contraseña" name="pass" placeholder="Mayusculas, minusculas maximo 8 caracteres"
+          required pattern="[A-Za-z]{8}" size="50px" /><br />
+        <br />
+        <label for="contraseña">Repite la Contraseña</label><br />
+        <input type="password" id="contraseña" name="pass" placeholder="Vuelva a escrbir la contraseña" required
+          pattern="[A-Za-z]{8}" size="50px" /><br />
+        <br />
+      </fieldset>
+      
+      <fieldset>
+        <p>Para Sugerirte Animes acordes a tus gustos:</p>
+        <label for="intereses">Indica cuales son tus generos favoritos de anime</label><br />
+        <input type="checkbox" id="intereses" name="generoFav" value="Shounen" />
+        <label for="intereses">Shounen</label>
+        <input type="checkbox" id="intereses" name="generoFav" value="Shoujo" />
+        <label for="intereses">Shoujo</label>
+        <input type="checkbox" id="intereses" name="generoFav" value="Mecha" />
+        <label for="intereses">Mecha</label>
+        <input type="checkbox" id="intereses" name="generoFav" value="Seinen" />
+        <label for="intereses">Seinen</label>
+        <input type="checkbox" id="intereses" name="generoFav" value="Isekai" />
+        <label for="intereses">Isekai</label><br />
+        <br />
+        <button type="submit">Enviar</button>
+
+        <button type="reset">Restablecer</button>
+      </fieldset>
+
+    </form>
+  </div>
+  </body>
+
+</html>
