@@ -1,19 +1,54 @@
+/*
+Cabecera HEADER
+*/
+
+.home{
+    float: left;
+    background-color: rgb(217, 255, 0);
+    border-radius: 40px;
+    padding: 3px;
+}
+
+.cabecera{
+ 
+    color: white;
+    text-align: center;
+    font-family: Impact;
+    background-color: darkblue;
+    margin-left: 400px;
+    margin-right: 400px;
+    border-radius: 10px;
+    
+}
+
+.header{
+    border: white 2px solid;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+/*
+Contenedor Pagina Main Container
+*/
+
 body{
     background-color: black;
     text-align: center;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato';
     margin: 5;
 }
 
-.cajon{
+.main-container{
     background-image:url(../images/fondo-prueba.jpg);
-    background-size: 120%;
+    background-size: 100%;
     background-repeat: no-repeat;
     margin: auto;
+    width: 80%;
     
     
 }
-h1{
+
+.portada{
     color: crimson;
     background-color: gold;
     padding: 5px;
@@ -22,16 +57,10 @@ h1{
     margin-right: 300px;
 
 }
-.cabecera{
- 
-    color: white;
-    text-align: center;
-    font-family: Impact;
-    background-color: darkblue;
-    
-}
 
-h2{
+
+
+.main-container h2{
     color: black;
     background-color: cyan;
     border-radius: 10px;
@@ -39,54 +68,265 @@ h2{
     margin-left: 500px;
     font-family: 'Bebas Neue', cursive;
 }
-.home{
-    float: left;
-    background-color: rgb(217, 255, 0);
-    border-radius: 40px;
-    padding: 3px;
-}
+/*
+Menu Navegacion Nav
+*/
 
-
-.portada-image{
+.menu-nav{
+    
     text-align: center;
-}
-
-nav{
-    margin-top: 15px;
-    text-align: center;
-    padding: 35px;
     background-image: url(/images/naruto-run.gif);
-    background-size: 300px;
-    background-position-x: 80px;
+    background-size: 20%;
+    margin: 0% auto;
     background-repeat: no-repeat;
     background-color: black;
-    border-radius: 20px;
+    border-radius: 30px;
     background-position: center;
-
+    margin-bottom: 10px;
+    border: yellow 2px solid;
     
 }
-a{
+
+.menu-nav a{
     text-decoration: none;
     color: white;
-}
-.menu{
-    border: solid;
+    border: 5px solid;
+    display: inline-block;
     border-radius: 5px;
     border-color: yellow;
-    display: inline-block;
     background-color: black;
-    color: white;
     margin: 20px;
     padding: 10px;
-    
 }
 
-table{
+/*
+Contenido Principal Main Content
+*/
+.main-content {
+    padding-bottom: 150px;
+    
+    border: white 2px solid;
+    border-radius: 20px;
+    
+}
+.tabla-inicio{
+    
     background-color: cornflowerblue;
     color: white;
     font-size: 20px;
+    margin:auto;
+    width: 90%;
+    padding: 5px;
     
    
+}
+
+.tabla-inicio img{
+    margin: 1px;
+    width: 210px;
+}
+.juego{
+    display: inline-block;
+    border: 2px white solid;
+    border-radius: 10px;
+    color: white;
+    width: 40%;
+    padding: 30px;
+    margin-right: auto;
+    
+    
+    background-color: black;
+    
+}
+
+.lista{
+    width: 30%;
+    text-align: center;
+    background-image: url(/images/fondo-lista.jpg);
+    background-size: 120;
+    background-repeat: no-repeat;
+    color: purple;
+    border: solid;
+    font-family: 'Times New Roman';
+    font-size: 15px;
+    display: inline-block;
+    padding-right: 100px;
+    padding-left: 100px;
+    
+}
+.lista li{
+    list-style: none;
+    padding: 20px;
+}
+
+.lista p{
+    margin-left: 10%;
+}
+
+.noticias{
+    text-align: justify;
+    color: pink;
+}
+
+
+blockquote{
+    color: mediumspringgreen;
+    text-align: justify;
+    background-color: black;
+    
+    padding: 6px;
+}
+
+form{
+    margin: 50px;
+    color: white;
+    
+   
+    padding-bottom: 50px;
+}
+
+legend{
+    margin: 0% auto; 
+    
+}
+.derecha{
+    float: right;
+    
+ }
+
+ 
+ .registro{
+     display: inline-block;
+     width: 30%;
+ }
+ fieldset{
+     border-radius: 10px;
+     font-family: Impact;
+
+ }
+ label{
+     
+     font-family: 'Lucida Console';
+ }
+ button{
+     font-family: 'Lucida Console';
+ }
+ 
+ .inicio-sesion{
+     background-image: url(https://p4.wallpaperbetter.com/wallpaper/81/388/855/anime-cityscape-landscape-scenery-wallpaper-preview.jpg);
+     background-repeat: no-repeat;
+     background-position-x: center;
+     background-size: 100%;
+     border: 3px solid;
+     margin-left: 200px;
+     margin-right: 200px;
+     border-radius: 20px;
+     background-color: black;
+     
+    
+ 
+ }
+ .inicio-sesion h1{
+    margin-left: 500px;
+    margin-right: 500px;
+    color: crimson;
+    background-color: gold;
+    border-radius: 20px;
+    font-family: Arial;
+}
+ 
+ .formulario{
+     display: inline-block;
+     margin: 0% auto;
+     width: 25%;
+ }
+
+ mark{
+     background-color: transparent;
+     text-decoration: underline;
+     color: purple;
+ }
+ .subcontent{
+     margin: 20px;
+     border: 2px white solid;
+     border-radius: 20px;
+     padding: 20px;
+ }
+ .download{
+     margin-left: 400px;
+     margin-right: 400px;
+     border-radius: 10px;
+     padding: 10px;
+     border: 2px blue solid;
+     background-color: green;
+     
+ }
+ .download a{
+     text-decoration: none;
+     color: black;
+ }
+/*
+Contenido Lateral Aside
+*/
+
+
+.imagen-formulario-derecha{
+    margin-top: 60px;
+    display: inline-block;
+    margin-left: 60px;
+    
+    width: 25%;
+    vertical-align: top;
+    
+ }
+
+ .imagen-formulario-izquierda{
+    margin-top: 60px;
+    display: inline-block;
+        
+    width: 25%;
+    vertical-align: top;
+    
+ }
+
+ .aside{
+    display: inline-block;
+    width: 30%;
+    margin: 20px;
+    vertical-align: center;
+    
+   
+}
+.aside p{
+    display: inline-block;
+    border: 2px white solid;
+    border-radius: 10px;
+    padding: 30px;
+    height: 40%;
+    
+    color: white;
+    background-color: black;
+    
+}
+
+.portada-image{
+    text-align: center;
+    margin-bottom: 10px;
+}
+/*
+Pie de Pagina Footer 
+*/
+
+
+.footer{
+    height: 100px;
+    padding: 20px;
+    color: yellow;
+    text-align: center;
+    background-color: black;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 2px solid blue;
 }
 
 .fa-youtube-square{
@@ -105,104 +345,10 @@ table{
     color: rgb(23, 120, 246);
     font-size: 20px;
 }
-.pie{
-    margin-top: 200px;
-    color: yellow;
-    text-align: center;
-    background-color: black;
-}
 
-.lista{
-    
-    text-align: center;
-    background-image: url(/images/fondo-lista.jpg);
-    background-size: 120;
-    background-repeat: no-repeat;
-    color: purple;
-    border: solid;
-    font-family: 'Times New Roman';
-    font-size: 15px;
-    display: inline-block;
-    padding-right: 100px;
-    padding-left: 100px;
-    
-}
-li{
-    list-style: none;
-    padding: 20px;
-}
-#lista-p-centrado{
-    text-align: center;
-}
-.noticias{
-    text-align: justify;
-    color: pink;
-}
 
-blockquote{
-    color: mediumspringgreen;
-    text-align: justify;
-    background-color: black;
-    
-    padding: 6px;
-}
-.derecha{
-   float: right;
-   
-}
-.imagen-derecha{
-    display: inline-block;
-    margin-left: 20px;
-   
-}
-form{
-    margin: 50px;
-    color: white;
-    
-   
-    padding-bottom: 50px;
-}
 
-legend{
-    margin: 0% auto; 
-    
-}
-.registro{
-    display: inline-block;
-}
-fieldset{
-    border-radius: 10px;
-    font-family: Impact;
-}
-label{
-    
-    font-family: 'Lucida Console';
-}
-button{
-    font-family: 'Lucida Console';
-}
-.login{
-    margin-left: 500px;
-    margin-right: 500px;
-}
-.inicio-sesion{
-    background-image: url(https://p4.wallpaperbetter.com/wallpaper/81/388/855/anime-cityscape-landscape-scenery-wallpaper-preview.jpg);
-    background-repeat: no-repeat;
-    background-position-x: center;
 
-}
 
-.formulario{
-    display: inline-block;
-    margin: 0% auto;
-    width: 500px;
-}
-mark{
-    background-color: transparent;
-    text-decoration: underline;
-    color: purple;
-}
-.imagen-formulario{
-   display: inline-block;
-   
-}
+
+
