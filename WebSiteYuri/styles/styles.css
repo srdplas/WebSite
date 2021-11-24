@@ -85,9 +85,10 @@ table{
     background-color: cornflowerblue;
     color: white;
     font-size: 20px;
-   padding: 5x;    
+    
    
 }
+
 .fa-youtube-square{
     margin-left: 20px;
     color: red;
@@ -115,10 +116,8 @@ table{
     
     text-align: center;
     background-image: url(/images/fondo-lista.jpg);
-    
     background-size: 120;
     background-repeat: no-repeat;
-    
     color: purple;
     border: solid;
     font-family: 'Times New Roman';
@@ -154,13 +153,14 @@ blockquote{
 .imagen-derecha{
     display: inline-block;
     margin-left: 20px;
+   
 }
 form{
     margin: 50px;
     color: white;
     
    
-    padding-bottom: 200px;
+    padding-bottom: 50px;
 }
 
 legend{
@@ -178,6 +178,9 @@ label{
     
     font-family: 'Lucida Console';
 }
+button{
+    font-family: 'Lucida Console';
+}
 .login{
     margin-left: 500px;
     margin-right: 500px;
@@ -188,6 +191,7 @@ label{
     background-position-x: center;
 
 }
+
 .formulario{
     display: inline-block;
     margin: 0% auto;
@@ -197,4 +201,8 @@ mark{
     background-color: transparent;
     text-decoration: underline;
     color: purple;
+}
+.imagen-formulario{
+   display: inline-block;
+   
 }
