@@ -115,8 +115,7 @@ table{
     
     text-align: center;
     background-image: url(/images/fondo-lista.jpg);
-    margin-left: 400px;
-    margin-right: 600px;
+    
     background-size: 120;
     background-repeat: no-repeat;
     background-position: center;
@@ -125,11 +124,13 @@ table{
     font-family: 'Times New Roman';
     font-size: 20px;
     display: inline-block;
-    
+    padding-right: 100px;
+    padding-left: 100px;
     
 }
 li{
     list-style: none;
+    padding: 20px;
 }
 #lista-p-centrado{
     text-align: center;
@@ -157,6 +158,7 @@ blockquote{
 form{
     margin: 50px;
     color: white;
+    
    
     padding-bottom: 200px;
 }
@@ -168,6 +170,14 @@ legend{
 .registro{
     display: inline-block;
 }
+fieldset{
+    border-radius: 10px;
+    font-family: Impact;
+}
+label{
+    
+    font-family: 'Lucida Console';
+}
 .login{
     margin-left: 500px;
     margin-right: 500px;
@@ -178,4 +188,13 @@ legend{
     background-position-x: center;
 
 }
-
+.formulario{
+    display: inline-block;
+    margin: 0% auto;
+    width: 500px;
+}
+mark{
+    background-color: transparent;
+    text-decoration: underline;
+    color: purple;
+}
