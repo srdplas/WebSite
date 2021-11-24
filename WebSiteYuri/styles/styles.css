@@ -1,7 +1,7 @@
 body{
-    background-color: aliceblue;
+    background-color: black;
     text-align: center;
-    font-family: Arial;
+    font-family: 'Lato', sans-serif;
     margin: 5;
 }
 
@@ -37,6 +37,7 @@ h2{
     border-radius: 10px;
     margin-right: 500px;
     margin-left: 500px;
+    font-family: 'Bebas Neue', cursive;
 }
 .home{
     float: left;
@@ -55,11 +56,12 @@ nav{
     text-align: center;
     padding: 35px;
     background-image: url(/images/naruto-run.gif);
-    background-size: 180px;
+    background-size: 300px;
     background-position-x: 80px;
     background-repeat: no-repeat;
     background-color: black;
     border-radius: 20px;
+    background-position: center;
 
     
 }
@@ -71,13 +73,14 @@ a{
     border: solid;
     border-radius: 5px;
     border-color: yellow;
-    display: inline;
+    display: inline-block;
     background-color: black;
     color: white;
     margin: 20px;
     padding: 10px;
     
 }
+
 table{
     background-color: cornflowerblue;
     color: white;
