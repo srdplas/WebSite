@@ -127,6 +127,9 @@ Contenido Principal Main Content
     
     
 }
+.noticia a{
+    color: blue;
+}
 
 p{
     text-justify: auto;
@@ -206,7 +209,7 @@ p{
 .lista{
     width: 30%;
     text-align: center;
-    background-image: url(/images/fondo-lista.jpg);
+    background-image: url(../images/fondo-lista.jpg);
     background-size: 120;
     background-repeat: no-repeat;
     color: purple;
