@@ -7,11 +7,15 @@ Cabecera HEADER
     background-color: rgb(217, 255, 0);
     border-radius: 20px;
     padding: 3px;
+    width:40px;
+    height:40px; 
 }
-
+.foto-portada{
+    height: 400px;
+}
 .cabecera{
  
-    color: white;
+    color: greenyellow;
     text-align: center;
     font-family: Impact;
     background-color: darkblue;
@@ -45,6 +49,7 @@ body{
     background-repeat: no-repeat;
     margin: auto;
     width: 80%;
+    max-width: 80%;
     
     
 }
@@ -67,7 +72,7 @@ body{
     border-radius: 10px;
     margin-right: 500px;
     margin-left: 500px;
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Bebas Neue';
 }
 /*
 Menu Navegacion Nav
@@ -103,7 +108,46 @@ Menu Navegacion Nav
 /*
 Contenido Principal Main Content
 */
+.noticia{
+    
+    display: inline-block;
+    border: 2px white solid;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 15px;
+    width: 30%;
+}
+.noticia img{
+    height: 250px;
+}
+.noticia h2{
+   
+    text-align: left;
+    display: table-cell;
+    
+    
+}
 
+p{
+    text-justify: auto;
+}
+
+.inicio-correcto{
+    border: 2px solid white;
+    display: inline-block;
+    padding: 10px;
+    color: yellow;
+    background-color: blueviolet;
+    border-radius: 20px;
+}
+.inicio-correcto a{
+    text-decoration: none;
+    color: greenyellow;
+    
+}
+.inicio-imagen{
+    height:400px;
+}
 
 .main-content {
     padding-bottom: 150px;
@@ -118,15 +162,32 @@ Contenido Principal Main Content
     color: white;
     font-size: 20px;
     margin:auto;
-    width: 90%;
+    width: 70%;
+    
     padding: 5px;
     
    
 }
-
-.tabla-inicio img{
-    margin: 1px;
-    width: 210px;
+.onepiece{
+    width: 150px;
+    height: 110px;
+    padding: 10px;
+}
+.deathnote{
+    width: 150px;
+    height: 115px;
+}
+.sao{
+    width: 150px;
+    height: 110px;
+}
+.bleach{
+    width: 150px;
+    height: 110px;
+}
+.rantaro{
+    width: 150px;
+    height: 120px;
 }
 .juego{
     display: inline-block;
@@ -201,6 +262,7 @@ legend{
  .registro{
      display: inline-block;
      width: 30%;
+     min-width: 30%;
  }
  fieldset{
      border-radius: 10px;
@@ -208,7 +270,7 @@ legend{
 
  }
  label{
-     
+     text-decoration: underline;
      font-family: 'Lucida Console';
  }
  button{
@@ -220,14 +282,29 @@ legend{
      background-repeat: no-repeat;
      background-position-x: center;
      background-size: 100%;
+     
      border: 3px solid;
      margin-left: 200px;
      margin-right: 200px;
      border-radius: 20px;
      background-color: black;
      
+ }
+ .inicio-sesion h2{
+     margin: auto;
+     width: 100%
+ }
+
+ .slime{
     
- 
+     width: 250px;
+ }
+ .overlord{
+     
+     width: 300px;
+ }
+ .tokyo{
+     width: 300px;
  }
  .inicio-sesion h1{
     margin-left: 500px;
@@ -243,7 +320,11 @@ legend{
      margin: 0% auto;
      width: 25%;
  }
-
+.formulario h2{
+    text-align: center;
+    width: 100%;
+    
+}
  mark{
      background-color: transparent;
      text-decoration: underline;
@@ -266,43 +347,110 @@ legend{
  }
  .download a{
      text-decoration: none;
-     color: black;
+     color: white;
  }
 
  .estrenos{
     border: 2px white solid;
-    border-radius: 10px;
+    border-radius: 20px;
     width: 40%;
     margin: auto;
     margin-left: 20px;
     display: inline-block;
+    margin-top: 20px;
     margin-right: 10%;
     vertical-align: middle;
     padding: 10px;
+    margin-bottom: 10px;
+    
 }
 
 .estrenos h2{
+    background-color: rgb(135, 69, 243);
     margin: auto;
     margin-bottom: 5%;
     
 }
 
 .estrenos a{
-    color: white;
+    color: rgb(115, 233, 184)
+   
+
+    
+}
+.lorem{
+    border: 2px white solid;
+    border-radius: 20px;
+    margin: 10px;
+    width: 40%;
+    font-style: italic bold;
+    padding: 10px;
+    display: inline-block;
+    color: pink;
+    background-color: black;
+    font-family: 'Comforter';
+    font-size: 19px;
+}
+blockquote{
+    padding: 10px;
 }
 /*
 Contenido Lateral Aside
 */
-.aside-estrenos{
+
+.noticia2{
     display: inline-block;
     border: 2px white solid;
-    width: 40%;
+    border-radius: 20px;
+    padding: 25px;
+    margin: 15px;
+    width: 30%;
+}
+.noticia2 img{
+    width: 300px;
+}
+.noticia2 a{
+    color: blue;
+}
+.noticia2 h2{
+     
+    display: ruby-text-container;
+    display: table-cell;
+    
+}
+.samurai{
+    margin-top: 20px;
+    display: inline-block;
+    width: 50%;
+    padding: 10px;
+    background-color: black;
+    border-radius: 20px;
+    vertical-align: bottom;
+    
+    
+}
+.samurai img{
+    width: 400px;
+    
+}
+
+.imagen-index{
+    max-width: 400px;
+    width: 400px;
+}
+.aside-estrenos{
+    margin-top: 20px;
+    display: inline-block;
+    border: 2px white solid;
+    width: 35%;
     padding: 10px;
     vertical-align: middle;
-    border-radius: 10px;
+    border-radius: 20px;
+    
    
 }
 .aside-estrenos h2{
+    background-color: rgb(135, 69, 243);
     margin: 0% auto;
     margin-bottom: 5%;
 }
@@ -311,24 +459,26 @@ Contenido Lateral Aside
     height: 250px;
 }
 .aside-estrenos a{
-    color: white;
+    color: rgb(115, 233, 184)
 }
 
 .imagen-formulario-derecha{
-    margin-top: 60px;
+    margin-top: 200px;
     display: inline-block;
     margin-left: 60px;
     
     width: 25%;
+    max-width: 25%;
     vertical-align: top;
     
  }
 
  .imagen-formulario-izquierda{
-    margin-top: 60px;
+    margin-top: 200px;
     display: inline-block;
         
     width: 25%;
+    max-width: 25%;
     vertical-align: top;
     
  }
@@ -348,6 +498,7 @@ Contenido Lateral Aside
     padding: 30px;
     height: 40%;
     
+    
     color: white;
     background-color: black;
     
@@ -364,6 +515,7 @@ Pie de Pagina Footer
 
 .footer{
     height: 100px;
+    max-height: 100px;
     padding: 20px;
     color: yellow;
     text-align: center;
