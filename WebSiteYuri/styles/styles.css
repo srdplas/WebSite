@@ -5,7 +5,7 @@ Cabecera HEADER
 .home{
     float: left;
     background-color: rgb(217, 255, 0);
-    border-radius: 40px;
+    border-radius: 20px;
     padding: 3px;
 }
 
@@ -30,6 +30,7 @@ Cabecera HEADER
 /*
 Contenedor Pagina Main Container
 */
+
 
 body{
     background-color: black;
@@ -102,6 +103,8 @@ Menu Navegacion Nav
 /*
 Contenido Principal Main Content
 */
+
+
 .main-content {
     padding-bottom: 150px;
     
@@ -265,10 +268,51 @@ legend{
      text-decoration: none;
      color: black;
  }
+
+ .estrenos{
+    border: 2px white solid;
+    border-radius: 10px;
+    width: 40%;
+    margin: auto;
+    margin-left: 20px;
+    display: inline-block;
+    margin-right: 10%;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+.estrenos h2{
+    margin: auto;
+    margin-bottom: 5%;
+    
+}
+
+.estrenos a{
+    color: white;
+}
 /*
 Contenido Lateral Aside
 */
+.aside-estrenos{
+    display: inline-block;
+    border: 2px white solid;
+    width: 40%;
+    padding: 10px;
+    vertical-align: middle;
+    border-radius: 10px;
+   
+}
+.aside-estrenos h2{
+    margin: 0% auto;
+    margin-bottom: 5%;
+}
 
+.aside-estrenos img {
+    height: 250px;
+}
+.aside-estrenos a{
+    color: white;
+}
 
 .imagen-formulario-derecha{
     margin-top: 60px;
