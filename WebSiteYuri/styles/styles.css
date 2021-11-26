@@ -218,7 +218,7 @@ p{
 }
 
 .lista{
-    width: 30%;
+    width: 25%;
     text-align: center;
     background-image: url(../images/fondo-lista.jpg);
     background-size: 120;
@@ -235,6 +235,7 @@ p{
 .lista li{
     list-style: none;
     padding: 20px;
+    width: 100%;
 }
 
 .lista p{
@@ -448,8 +449,8 @@ Contenido Lateral Aside
 }
 
 .imagen-index{
-    max-width: 400px;
-    width: 400px;
+    
+    width: 100%;
 }
 .aside-estrenos{
     margin-top: 20px;
@@ -498,7 +499,7 @@ Contenido Lateral Aside
 
  .aside{
     display: inline-block;
-    width: 30%;
+    width: 45%;
     margin: 20px;
     vertical-align: center;
 }
